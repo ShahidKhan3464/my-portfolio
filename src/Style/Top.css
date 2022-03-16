@@ -1,0 +1,58 @@
+.Top {
+    margin: 8rem 10rem 6rem 20rem;
+}
+
+.Top-container {
+    display: flex;
+    margin: 0 -10rem;
+}
+
+.Top-container-left {
+    width: 55%;
+    padding: 4rem;
+}
+
+.Top-container-right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Top-container-right img {
+    width: 22rem;
+    border-radius: 50%;
+    filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.5));
+}
+
+.Top-container-left h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 0.57rem #000;
+    margin-bottom: 2rem;
+}
+
+.Top-container-left p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.Top-container-left button {
+    width: 30%;
+    height: 3rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.Top-container-left a {
+    margin: 0 1rem;
+    text-decoration: none;
+}

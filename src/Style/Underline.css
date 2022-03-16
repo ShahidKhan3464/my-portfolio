@@ -1,0 +1,9 @@
+.Underline {
+    display: block;
+    width: 6rem;
+    height: 7px;
+    margin: auto;
+    margin-top: 1rem;
+    background: #E3335A;
+    border-radius: 5px;
+}

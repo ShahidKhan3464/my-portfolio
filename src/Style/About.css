@@ -1,0 +1,33 @@
+.about {
+    color: white;
+    margin-top: 3rem;
+}
+
+.about h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about p {
+    display: block;
+    width: 45rem;
+    margin: auto;
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.about h4 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.skill {
+    margin: 0 0 2rem 31.2rem;
+}
+
+.skill-icon {
+    color: rgb(83 242 76);
+    margin: 0 1rem;
+}
