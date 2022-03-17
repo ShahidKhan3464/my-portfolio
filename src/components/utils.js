@@ -34,7 +34,7 @@ export const projects = [
 
 export const skills = [
     'Full Stack Web Development',
-    'Interactive Frontend design through various frameworks',
+    'Frontend design via various frameworks',
     'Javascript and React',
     'Redux for state management',
     'Backend development using Node.js',

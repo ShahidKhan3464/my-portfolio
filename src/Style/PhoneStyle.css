@@ -10,8 +10,6 @@
     }
 
     .navbar-toggler {
-        width: 3rem;
-        height: 2rem;
         background: white;
     }
 
@@ -62,7 +60,7 @@
     }
 
     .Top-container-left p {
-        text-align: justify;
+        font-size: 1rem;
     }
 
     .Top-container-left button {
@@ -79,11 +77,15 @@
     }
 
     .card img {
-        width: 19rem;
+        width: 18rem;
     }
 
     .card-title {
         font-size: 1.5rem;
+    }
+
+    .card-body p {
+        text-align: justify;
     }
 
     /* About */
@@ -93,14 +95,17 @@
 
     .about p {
         width: 100%;
-        font-size: 1rem;
-        margin: 1rem 1rem;
+        margin: 1rem 0.5rem;
         padding: 1.5rem;
     }
 
+    /* .about h4 {
+        margin: 3rem 1rem 0 1rem;
+    } */
+
     .skill {
-        width: 32rem;
-        margin: 1rem 0 1rem 2rem;
+        width: 24rem;
+        margin: 1rem 1rem;
     }
 
     /* Contact */
@@ -109,7 +114,7 @@
     }
 
     .contact-container {
-        width: 90%;
+        width: 82%;
         flex-direction: column;
         margin: 2rem 2rem;
     }
@@ -127,12 +132,13 @@
 
     /* Footer */
     .footer p {
-        font-size: 1rem;
+        font-size: 0.6rem;
         line-height: 3rem;
     }
 
     /* Underline */
     .Underline {
         width: 4rem;
+        margin-top: 0.5rem;
     }
 }
