@@ -2,7 +2,11 @@ import emailjs from '@emailjs/browser'
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
 import Underline from './Underline'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import '..//Style/Contact.css'
+
+toast.configure()
 
 const Contact = () => {
 
@@ -10,16 +14,16 @@ const Contact = () => {
         e.preventDefault()
         try {
             await emailjs.sendForm(
-                "service_dw809lf",
-                "template_lzco4ci",
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
                 e.target,
-                "nuzrEflGJfW88NXlb"
+                process.env.REACT_APP_USER_ID
             )
-            alert('Your message has been sent!')
+            toast.success('Your message has been sent', { position: 'top-center', autoClose: 3000 })
             document.getElementById("form").reset()
         }
         catch (err) {
-            alert('An error occured. Please try again later.')
+            toast.error('Your message has not been sent', { position: 'top-center', autoClose: 3000 })
         }
     }
 
@@ -47,6 +51,7 @@ const Contact = () => {
                     </Form.Group>
 
                     <Button variant="success" type="submit">Send</Button>
+                    {/* <ToastContainer /> */}
                 </Form>
             </div>
         </div>
