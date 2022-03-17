@@ -14,32 +14,52 @@
     }
 
     .navbar-nav .link {
-        font-size: 1.5rem;
         padding: 1rem 0 !important;
     }
 
     .icons {
-        justify-content: space-around;
-        margin: 1rem -5rem 0 -5rem;
+        justify-content: space-between;
+        margin: 1rem 0 0 0;
     }
 
-    /* .icons a {
-        font-size: 2rem;
-    } */
+    .icons a {
+        margin: 0 !important;
+    }
 
     /* Top */
+    .Top {
+        margin: 8rem 0rem 5rem 0rem;
+    }
+
     .Top-container {
         flex-direction: column-reverse;
         margin: 0;
     }
 
+    .Top-container-right {
+        width: 100%;
+    }
+
     .Top-container-right img {
-        width: 15rem;
+        width: 10rem;
     }
 
     .Top-container-left {
-        width: 40rem;
-        margin: 1rem -15rem;
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .Top-container-left h3 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .Top-container-left p {
+        text-align: justify;
+    }
+
+    .Top-container-left button {
+        width: 40%;
     }
 
     /* Projects */

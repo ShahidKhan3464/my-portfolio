@@ -20,9 +20,9 @@ const Header = () => {
                         <Nav.Link href="#about" className='link'>About</Nav.Link>
                         <Nav.Link href="#contact" className='link'>Contact</Nav.Link>
                         <div className='icons'>
-                            <Nav.Link href="https://github.com/ShahidKhan3464" target="_blank" className='link'><BsGithub /></Nav.Link>
-                            <Nav.Link href="https://www.linkedin.com" target="_blank" className='link'><BsLinkedin /></Nav.Link>
-                            <Nav.Link href="https://www.facebook.com" target="_blank" className='link'><FaFacebook /></Nav.Link>
+                            <Nav.Link href="https://github.com/ShahidKhan3464" target="_blank" className='social-link'><BsGithub /></Nav.Link>
+                            <Nav.Link href="https://www.linkedin.com" target="_blank" className='social-link'><BsLinkedin /></Nav.Link>
+                            <Nav.Link href="https://www.facebook.com" target="_blank" className='social-link'><FaFacebook /></Nav.Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>
