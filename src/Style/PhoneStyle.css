@@ -2,10 +2,16 @@
 
     /* Navbar */
     .container {
-        padding: 1.5rem;
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 1.7rem;
     }
 
     .navbar-toggler {
+        width: 3rem;
+        height: 2rem;
         background: white;
     }
 
@@ -24,20 +30,20 @@
 
     .icons a {
         margin: 0 !important;
+        font-size: 1.5rem !important;
     }
 
     /* Top */
     .Top {
-        margin: 8rem 0rem 5rem 0rem;
+        margin: 8rem 0rem 3rem 0rem;
     }
 
     .Top-container {
         flex-direction: column-reverse;
-        margin: 0;
     }
 
     .Top-container-right {
-        width: 100%;
+        margin: 0 auto;
     }
 
     .Top-container-right img {
@@ -45,12 +51,13 @@
     }
 
     .Top-container-left {
-        width: 100%;
+        width: 60%;
+        margin: 0 auto;
         padding: 3rem;
     }
 
     .Top-container-left h3 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -63,24 +70,48 @@
     }
 
     /* Projects */
+    .Projects h1 {
+        font-size: 2rem;
+    }
+
     .card {
-        margin: 1rem;
+        width: 20rem;
+    }
+
+    .card img {
+        width: 19rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
     }
 
     /* About */
+    .about h1 {
+        font-size: 2rem;
+    }
+
     .about p {
-        width: 25rem;
+        width: 100%;
+        font-size: 1rem;
+        margin: 1rem 1rem;
+        padding: 1.5rem;
     }
 
     .skill {
         width: 32rem;
-        margin: 0 0 0 4rem;
+        margin: 1rem 0 1rem 2rem;
     }
 
     /* Contact */
+    .contact h1 {
+        font-size: 2rem;
+    }
+
     .contact-container {
-        width: 100%;
+        width: 90%;
         flex-direction: column;
+        margin: 2rem 2rem;
     }
 
     .contact-container img {
@@ -90,12 +121,18 @@
 
     .contact-container form {
         width: 100%;
+        padding: 1rem 2.5rem 1rem 2.5rem;
         border-radius: 0 0 5px 5px;
     }
 
     /* Footer */
     .footer p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 3rem;
+    }
+
+    /* Underline */
+    .Underline {
+        width: 4rem;
     }
 }
