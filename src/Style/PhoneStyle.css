@@ -28,7 +28,7 @@
 
     .icons a {
         margin: 0 !important;
-        font-size: 1.5rem !important;
+        font-size: 1.7rem !important;
     }
 
     /* Top */
@@ -38,9 +38,11 @@
 
     .Top-container {
         flex-direction: column-reverse;
+        margin: 0;
     }
 
     .Top-container-right {
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -49,22 +51,28 @@
     }
 
     .Top-container-left {
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .Top-container-left h3 {
+        width: 18rem;
         font-size: 2rem;
-        text-align: center;
     }
 
     .Top-container-left p {
         font-size: 1rem;
+        text-align: justify;
     }
 
-    .Top-container-left button {
-        width: 40%;
+    .buttons {
+        display: flex;
+        width: 20rem;
+    }
+
+    .buttons button {
+        width: 8rem;
     }
 
     /* Projects */
@@ -88,24 +96,27 @@
         text-align: justify;
     }
 
+    .card-tags span {
+        padding-right: 5px;
+    }
+
     /* About */
     .about h1 {
         font-size: 2rem;
     }
 
     .about p {
-        width: 100%;
+        width: 97%;
         margin: 1rem 0.5rem;
         padding: 1.5rem;
     }
 
-    /* .about h4 {
-        margin: 3rem 1rem 0 1rem;
-    } */
-
     .skill {
-        width: 24rem;
         margin: 1rem 1rem;
+    }
+
+    .skill .skill-item {
+        letter-spacing: 0.4px !important;
     }
 
     /* Contact */
@@ -130,6 +141,10 @@
         border-radius: 0 0 5px 5px;
     }
 
+    form button {
+        width: 50%;
+    }
+
     /* Footer */
     .footer p {
         font-size: 0.6rem;
@@ -138,7 +153,8 @@
 
     /* Underline */
     .Underline {
-        width: 4rem;
+        width: 5rem;
+        height: 5px;
         margin-top: 0.5rem;
     }
 }

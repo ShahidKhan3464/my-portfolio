@@ -12,7 +12,7 @@ export const projects = [
         title: 'Covid-19 Tracker',
         description: 'Web application to track the latest updates of COVID-19 cases of the countries in all over the World.',
         image: 'Projects/2.png',
-        tags: ['Javascript', 'React', 'Diseases.sh API'],
+        tags: ['Javascript', 'React', 'Diseases API'],
     },
 
     {
@@ -28,13 +28,13 @@ export const projects = [
         title: 'Weather App',
         description: 'Web application to display the real-time weather information of the city based on the user\'s given location.',
         image: 'Projects/4.png',
-        tags: ['Javascript', 'React', 'Open Weather API'],
+        tags: ['Javascript', 'React', 'Weather API'],
     }
 ]
 
 export const skills = [
     'Full Stack Web Development',
-    'Frontend design via various frameworks',
+    'Various Frontend design frameworks',
     'Javascript and React',
     'Redux for state management',
     'Backend development using Node.js',
