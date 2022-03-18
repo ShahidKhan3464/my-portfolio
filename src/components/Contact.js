@@ -14,10 +14,10 @@ const Contact = () => {
         e.preventDefault()
         try {
             await emailjs.sendForm(
-                "service_dw809lf",
-                "template_lzco4ci",
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
                 e.target,
-                "nuzrEflGJfW88NXlb"
+                process.env.REACT_APP_USER_ID
             )
             toast.success('Your message has been sent', { position: 'top-center', autoClose: 3000 })
             document.getElementById("form").reset()
