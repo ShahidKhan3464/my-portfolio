@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 import Underline from './Underline'
 import { projects } from './utils'
 import '..//Style/Projects.css'
@@ -23,6 +24,8 @@ const Projects = () => {
                                     <span key={tag}>{tag}</span>
                                 ))}
                             </div>
+                            <Button onClick={() => window.open(project.link)} variant='success'>Watch Live</Button>
+                            <Button onClick={() => window.open(project.source)} variant='success'>Source Code</Button>
                         </Card.Body>
                     </Card>
                 ))}
