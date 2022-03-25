@@ -32,7 +32,7 @@ export const projects = [
     {
         id: 4,
         title: 'Real Chat App',
-        description: 'Web application to chat with your friends using real time chat application. It is a real time chat application that allows you to chat with your friends using your voice. It is a real time chat application that allows you to chat with your friends using your voice.',
+        description: 'Web application to chat with your friends using real time chat application. Real-time chat is virtually any online communication that provides a real-time or live transmission of text messages from sender to receiver.',
         image: 'Projects/4.png',
         tags: ['React', 'Node', 'Express', 'Socket.io'],
         link: 'https://real-chat-app-byshahid.herokuapp.com',
