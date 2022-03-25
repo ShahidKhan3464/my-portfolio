@@ -31,12 +31,12 @@ export const projects = [
 
     {
         id: 4,
-        title: 'Weather App',
-        description: 'Web application to display the real-time weather information of the city based on the user\'s given location.',
+        title: 'Real Chat App',
+        description: 'Web application to chat with your friends using real time chat application. It is a real time chat application that allows you to chat with your friends using your voice. It is a real time chat application that allows you to chat with your friends using your voice.',
         image: 'Projects/4.png',
-        tags: ['Javascript', 'React', 'Weather API'],
-        link: 'https://weather-app-byshahid.netlify.app',
-        source: 'https://github.com/ShahidKhan3464/14-weather-app'
+        tags: ['React', 'Node', 'Express', 'Socket.io'],
+        link: 'https://real-chat-app-byshahid.herokuapp.com',
+        source: 'https://github.com/ShahidKhan3464/real-chat-app'
     }
 ]
 
