@@ -48,3 +48,13 @@
     display: flex;
     justify-content: space-around;
 }
+
+.card-body button {
+    width: 40%;
+    height: 3rem;
+    margin: 2rem 1rem 0 1rem;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
