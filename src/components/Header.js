@@ -21,7 +21,7 @@ const Header = () => {
                         <Nav.Link href="#contact" className='link'>Contact</Nav.Link>
                         <div className='icons'>
                             <Nav.Link href="https://github.com/ShahidKhan3464" target="_blank" className='social-link'><BsGithub /></Nav.Link>
-                            <Nav.Link href="https://www.linkedin.com" target="_blank" className='social-link'><BsLinkedin /></Nav.Link>
+                            <Nav.Link href="https://www.linkedin.com/in/shahidkhan34" target="_blank" className='social-link'><BsLinkedin /></Nav.Link>
                             <Nav.Link href="https://www.facebook.com" target="_blank" className='social-link'><FaFacebook /></Nav.Link>
                         </div>
                     </Nav>
